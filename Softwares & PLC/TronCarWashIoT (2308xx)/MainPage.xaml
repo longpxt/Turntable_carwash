@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="TronCarWashIoT.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TronCarWashIoT"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="600">
+
+    <Grid Height="600" Loaded="Grid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="status" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="80,562,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="933"/>
+        <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="12,567,0,0" Text="Status" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="btnStart" Content="Scan" Margin="10,10,0,0" VerticalAlignment="Top" Height="60" Width="170" Grid.Column="1" FontSize="24" FontWeight="Bold" Click="btnStart_Click"/>
+        <Canvas x:Name="cvs_Draw" Grid.ColumnSpan="2" Margin="184,10,10,84" Width="500" Height="500" Background="{ThemeResource SystemControlBackgroundBaseMediumLowBrush}"/>
+        <Button x:Name="btnConfirm" Content="Confirm 1" Margin="11,75,0,0" VerticalAlignment="Top" Height="60" Width="170" Grid.Column="1" FontSize="24" FontWeight="Bold" Click="btnConfirm_Click" IsEnabled="False"/>
+        <ProgressBar x:Name="DataTransfer" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="29" Margin="80,528,0,0" VerticalAlignment="Top" Width="933" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <RelativePanel Grid.ColumnSpan="2"/>
+        <Button x:Name="btnConfirm_2" Content="Confirm 2" Margin="12,140,0,0" VerticalAlignment="Top" Height="60" Width="170" Grid.Column="1" FontSize="24" FontWeight="Bold" Click="btnConfirm2_Click" IsEnabled="False"/>
+        <Button x:Name="btnNext" Content="Next" Margin="10,373,0,0" VerticalAlignment="Top" Height="60" Width="170" Grid.Column="1" FontSize="24" FontWeight="Bold" Click="btnNext_Click"/>
+        <TextBlock x:Name="Timer" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="12,443,0,0" Text="Timer" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Width="166"/>
+        <Button x:Name="btnReWash" Content="Re-Wash" Margin="12,205,0,0" VerticalAlignment="Top" Height="60" Width="170" Grid.Column="1" FontSize="24" FontWeight="Bold" Click="btnReWash_Click" IsEnabled="False"/>
+        <Button x:Name="btnLoadCSV" Content="Load" Margin="12,0,0,0" Height="60" Width="170" Grid.Column="1" FontSize="24" FontWeight="Bold" Click="btnLoadCSV_Click"/>
+
+    </Grid>
+</Page>
