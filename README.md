@@ -1,3 +1,7 @@
+![infinity](https://github.com/user-attachments/assets/99d198d9-0916-4e60-9176-2fb3f5b57d2e)
+![model](https://github.com/user-attachments/assets/953bfc2e-ba61-43e1-a0f5-f05d72d34021)
+
+
 # Turntable Car Wash (aka “Tron Car Wash”)
 
 An open-hardware, industrial-scale in-bay car wash architecture that replaces the traditional moving overhead gantry with a **servo-driven turntable** and **parallel Spray Column modules**.
