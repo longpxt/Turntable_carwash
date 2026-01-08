@@ -9,7 +9,14 @@ An open-hardware, industrial-scale in-bay car wash architecture that replaces th
 > Goal: increase throughput, simplify hose/cable routing, and improve maintainability by “inverting” the conventional in-bay design.
 
 ---
+## OSHWA Certification
 
+This project is **OSHWA Open Source Hardware Certified**.
+
+- **OSHWA Certification ID:** **VN000001**
+- Certification page: https://certification.oshwa.org/vn000001.html
+
+---
 ## Context and motivation
 
 Most in-bay automatic car washes rely on an overhead gantry that moves back-and-forth along the vehicle. While widely adopted, this approach tends to increase mechanical complexity and adds stress to **hose routing** and **cable management** due to constant motion and repeated travel paths.
